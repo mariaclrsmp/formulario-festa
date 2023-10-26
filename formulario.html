@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Festa de Halloween</h1>
+    <p>Um formulário para saber sobre sua fantasia para a festa</p>
+    <form action="mailto:mariaclaramsampaio@gmail.com">
+        <div class="caixa">
+            <label for="nome">Nome:</label><input id="nome" type="text" placeholder="Seu nome aqui" required>
+            <label for="email">Email: </label><input id="email" type="email" placeholder="seuemail@email.com" required>
+            <label for="acomp">Quantos amigos você vai trazer?: </label><input id="acomp" type="number" min="2" max="5" required>
+            <label for="cost">Qual seu tipo de fantasia? </label>
+                <select id="cost">
+                    <option>Bruxa</option>
+                    <option>Vampiro</option>
+                    <option>Personagens</option>
+                    <option>Outros</option>
+                </select>
+            <label for="texto">Descreva melhor seu look: </label><textarea id="texto"></textarea>
+            <input id="enviar" type="submit" value="Enviar">
+
+        </div>
+    </form>
+    
+
+
+    
+</body>
+</html>
