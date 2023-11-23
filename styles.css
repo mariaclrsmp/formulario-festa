@@ -28,11 +28,11 @@ form{
     padding: 30px;
     display: block;
 }
+
 #enviar{
     margin-top: 10px;
     background-color: #ee5622;
     border: none;
     color:#ffefb9;
-    font-family: tahoma;
     font-size: 1em;
 }
